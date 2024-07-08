@@ -1,0 +1,39 @@
+body {
+    background-color: #282c34; /* Dark background color */
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container {
+    max-width: 450px; /* Adjusted for a more compact design */
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#search_data {
+    width: 200px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid #61dafb; /* Light blue border */
+    border-radius: 4px 0 0 4px;
+    color: white; /* White text color */
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #282c34; /* Dark background color */
+    outline: none; /* Remove input focus outline */
+}
+
+#search_btn {
+    width: 60px;
+    margin-top: 20px;
+    background-color: #61dafb; /* Light blue button color */
+    color: white;
+    height: 43px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+   
+}
+
