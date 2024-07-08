@@ -1,4 +1,4 @@
-const apiKey = API_KEY;
+const apiKey = AIzaSyBNKUVPxfKGTg99XkHELkcQJjQUvYG8eeM;
 
 chrome.runtime.onMessage.addListener(
     function (request, sender, sendResponse) {
